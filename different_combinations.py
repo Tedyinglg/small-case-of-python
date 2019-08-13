@@ -1,6 +1,6 @@
 """
 Question 1: get n-number from list(length == m and m > n), combine n-number
-
+For example: [1, 2, 3]; n =2; return [(1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2)]
 """
 def main(list_num, n):
   print(list(permutation(list_num, n))) # first solution, use permutation
